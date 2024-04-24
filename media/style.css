@@ -8,6 +8,18 @@
         border-radius: 20px 0px 0px 20px;
         transition: 1s;
     }
+
+    .campo > input {
+        background-color: #1F2024;
+        height: 109%;
+        width: 89%;
+        text-align: center;
+        border-radius: 8px;
+        border: none;
+        color: antiquewhite;
+        transform: translateY(-10px);
+    }
+
     #login #imagem:hover {
         box-shadow: -7px -7px 7000px rgba(0, 0, 255, 0.473) ;
     }
@@ -32,6 +44,18 @@
         height: 80%;
         transition: 1s;
     }
+
+    .campo > input {
+        background-color: #1F2024;
+        height: 109%;
+        width: 90%;
+        text-align: center;
+        border-radius: 8px;
+        border: none;
+        color: antiquewhite;
+        transform: translateY(-10px);
+    }
+
     #login #imagem {
         float: right;
         width: 50%;
@@ -52,5 +76,6 @@
     }
     #formulario p {
         font-size: 1.5em;
+        margin: 35px 0px;
     }
 }
